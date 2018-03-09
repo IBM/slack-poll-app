@@ -1,7 +1,7 @@
 ---
 applications:
 - name: slack-poll-app
-declared-services:
-  ibmpoll-cloudant:
-    label: cloudantNoSQLDB
-    plan: Lite
+  memory: 128M
+  instances: 1
+  services:
+  - slack-poll-app-cloudantNoSQLDB
