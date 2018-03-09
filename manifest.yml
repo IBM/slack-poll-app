@@ -1,0 +1,7 @@
+---
+applications:
+- name: slack-poll-app
+  memory: 128M
+  instances: 1
+  services:
+  - slack-poll-app-cloudantNoSQLDB
