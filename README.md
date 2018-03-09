@@ -15,10 +15,10 @@
 
 3. In the slack app, create a slash command:
 
-  - Command: `/poll` or another command
-  - Request URL: `https://your-slack-app-route/slack/command`, where route is obtained from Step 1.
-  - Short Description: `Simple polling app hosted on IBM Cloud.`
-  - Usage Hint: `"Would you like to play a game?"  "Chess"  "Falken's Maze"  "Thermonuclear War"`
+    - Command: `/poll` or another command
+    - Request URL: `https://your-slack-app-route/slack/command`, where route is obtained from Step 1.
+    - Short Description: `Simple polling app hosted on IBM Cloud.`
+    - Usage Hint: `"Would you like to play a game?"  "Chess"  "Falken's Maze"  "Thermonuclear War"`
 
 4. Go to **Interactive Components**, and set Request URL to `https://your-slack-app-route/slack/action`
 
