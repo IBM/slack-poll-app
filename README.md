@@ -1,5 +1,9 @@
 # slack-poll-app
 
+A simple slack polling app which can be deployed in your own environment.
+
+![screenshot](./screenshot.png)
+
 ## Current Features
 
 - One active poll per channel
