@@ -1,0 +1,7 @@
+---
+applications:
+- name: slack-poll-app
+declared-services:
+  ibmpoll-cloudant:
+    label: cloudantNoSQLDB
+    plan: Lite
