@@ -21,7 +21,7 @@ stages:
         type: deployer
         script: |-
             #!/bin/bash
-            cf create-service cloudantNoSQLDB Shared slack-poll-app-cloudantNoSQLDB
+            cf create-service cloudantNoSQLDB Lite slack-poll-app-cloudantNoSQLDB
             cf push "${CF_APP}"
             # View logs
             cf logs "${CF_APP}" --recent
